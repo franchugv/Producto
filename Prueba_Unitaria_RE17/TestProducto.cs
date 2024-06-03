@@ -1,12 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NUnit.Framework;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Clase_Producto;
-using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 
 
@@ -57,7 +56,8 @@ namespace Prueba_Unitaria_RE17
 
             producto.Precio = 20;
 
-            Assert.AreNotEqual(producto.PrecioIVA, 120);
+            Assert.AreNotEqual(producto.PrecioIVA, 840);
+            
         }
 
     }

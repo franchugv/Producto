@@ -5,7 +5,7 @@
 
         // CONSTANTES
 
-        private const int INC_IVA = 0;
+        private const int INC_IVA = 21;
 
             // MIEMBROS PRIVADOS
             private string _nombre;
